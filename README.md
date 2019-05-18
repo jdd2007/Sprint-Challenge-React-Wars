@@ -28,7 +28,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is a library that updates quickly and makes it easy to be explicit writing code, create reusable components and build a complicated app with precision. It is not very old, but it already has a lot of fans in the developer community beyond facebook, where it was originally created. ReactJS uses the DOM carefully to minimize the CPU resources needed, with a 'virtual DOM' that is between the browser and the developer. 
+
 - [ ] What does it mean to _think_ in react?
+
+You should have a good idea of the steps needed to complete any project beforehand, and the official documentation recommends planning five major steps in order after (Step #0) you start with a goal and pre-designed mock. 
+
+Step #1: The first step is to break down the user interface into single components, arranged into a hierarchy. Components, as child 'subcomponents' can be inside other components. Ideally, each component will only have one 'task' to do. 
+
+Step #2 is to develop a static version of your app that has correct design but no interactivity (yet). 
+
+Next, Step #3 is figure out a complete represenation of UI 'state,' as opposed to props. Props are (usually) passed in from a parent, remain unchanged and can be computed from other state or props--all unlike state. 
+
+After that, Step #4 involves identifying where the state should 'live'--this will be a parent componenent higher up in the hierarchy, and if none exists then you should create one. Finally Step #5 has you add inverse data flow, turning the 'one-way' direction into a 'two-way' data flow. 
 
 - [ ] Describe state.
 
