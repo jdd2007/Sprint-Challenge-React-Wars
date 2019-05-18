@@ -44,7 +44,14 @@ After that, Step #4 involves identifying where the state should 'live'--this wil
 
 - [ ] Describe state.
 
+State is a regular Javascript object that is really important in React, and just like props it holds information that can change what is rendered as output. However, state is managed inside a component, and changes over time, often triggered from user events. It is a moment in time represenation. 
+
 - [ ] Describe props.
+
+Unlike state, props are received from a higher component and unchangeable-immutable. 
+props (short for “properties”) and state are both plain JavaScript objects. While both hold information that influences the output of render, they are different in one important way: props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).
+
+
 
 ## Project Set Up
 
