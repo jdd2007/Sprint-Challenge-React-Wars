@@ -8,7 +8,11 @@ const DisplayBox = props => {
         <div className="box">
             {props.theCharacters.map( aCharacter => 
                 <IndivCharacter 
-                    theirName={aCharacter.name} key={aCharacter.created}/>
+                    key={aCharacter.url}
+                    theirName={aCharacter.name} 
+                    theirBirthday={aCharacter.birth_year}
+                    theirHeight={aCharacter.height}
+                />
             )};
         </div>
     );
