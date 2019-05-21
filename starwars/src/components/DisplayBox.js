@@ -1,20 +1,22 @@
-import React, { Component } from 'react';
-import '../components/StarWars.css'
+import React from 'react';
+import './StarWars.css'
 import IndivCharacter from './IndivCharacter';
 
-const DisplayBox = props => { 
 
+const DisplayBox = props => { 
     return (
         <div className="box">
             {props.theCharacters.map( aCharacter => 
                 <IndivCharacter 
-                    key={aCharacter.url}
+                    key={aCharacter.created}
                     theirName={aCharacter.name} 
                     theirBirthday={aCharacter.birth_year}
                     theirHeight={aCharacter.height}
+                    theirGender={aCharacter.gender}
                 />
             )};
         </div>
     );
 };
+
 export default DisplayBox;
