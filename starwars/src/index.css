@@ -4,4 +4,12 @@ body {
   font-family: sans-serif;
   background-image: url('./sw-bg.jpg');
   background-size: cover;
-}
+};
+
+.indivCharacterClass {
+  border: 2px solid yellow;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  color: red;
+};

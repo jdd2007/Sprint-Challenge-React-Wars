@@ -1,0 +1,14 @@
+.box {
+    width: 60%;
+    margin: auto;
+    border: 3px solid red;
+};
+
+
+.box .indivCharacterClass {
+    border: 2px solid yellow;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: red;
+};
